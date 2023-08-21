@@ -15,7 +15,8 @@ SELECT 1/0  As Result
 go
 
 
---**********SECTION-3 ----------------------
+--*******************SECTION-3 ----------------------
+
 --create a table using the GUI snd T-SQL 
 -- Creating a sample table using T-SQL
 
@@ -26,14 +27,23 @@ ID INT,
 )
 
 go
-
+-- insert data 
 insert into TBLCREATION 
 values
 (1,'A'),
 (2,'B'),
 (3,'C')
 
+--retrive data 
 select * from TBLCREATION
+
+--delete data 
+ delete 
+ from TBLCREATION
+ where id =2
+
+ --------*********************SECTION_4----------------
+
 
 
 

@@ -1,0 +1,9 @@
+CREATE TABLE Tblemployee 
+(
+Employeenumber int not null, 
+Employeefirstname varchar(50) not null,
+EmployeeMidName varchar(50) null,
+EmployeeLastName varchar(50) not null,
+EmployeeGovID char(10) null,
+DateofBirth date not null
+)

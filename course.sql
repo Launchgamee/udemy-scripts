@@ -42,8 +42,31 @@ select * from TBLCREATION
  from TBLCREATION
  where id =2
 
- --------*********************SECTION_4----------------
+ --------*********************SECTION_4--------------
+create table tblemployee
+(
+employeeid int, 
+employeename varchar (50)
+)
+--creating temporal variales
+
+DECLARE @myvar -- initializing/declaring  a variable (myvar) 
+int = -- datatype  
+2 -- initial value 
+
+declare @myvar int = 2 
+select @myvar as Variable
+
+--section 9 --
+
+-- starts with creating TblEmployee
+--create tblemployee
+-- insert data 
 
 
+select * from tblemployee 
 
+
+Alter table tblemployee 
+add Department varchar(50)
 

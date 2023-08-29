@@ -63,9 +63,7 @@ select @myvar as Variable
 --create tblemployee
 -- insert data 
 
-
-select * from tblemployee 
-
+--alter object to add new field 
 
 Alter table tblemployee 
 add Department varchar(50)

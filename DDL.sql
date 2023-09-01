@@ -10,10 +10,15 @@ EmployeeGovID char(10) null,
 DateofBirth date not null
 )
 
--- add column epartment 
+/* 
+     slight modifications to alter in additional columns in TblEmployee
 
-Alter table tblemployee 
-add Department varchar(50)
+ALTER TABLE tblEmployee
+ALTER COLUMN Department VARCHAR(255)
+
+ALTER TABLE tblEmployee
+ADD LastMOd datetime 
+
+*\
 
 
-use  a 

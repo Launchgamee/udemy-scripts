@@ -60,11 +60,10 @@ select @myvar as Variable
 --section 9 --
 
 -- starts with creating TblEmployee
---create tblemployee
--- insert data 
+--create tblemployee,, table created 
+-- insert data -- provided xlsx 
+--alter table/object to add new field 
 
---alter object to add new field 
 
-Alter table tblemployee 
-add Department varchar(50)
 
+select * from tblemployee

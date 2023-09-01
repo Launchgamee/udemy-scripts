@@ -1,6 +1,6 @@
--- create table employee 
+-- CREATE TblEmployee 
 
-CREATE TABLE Tblemployee 
+CREATE TABLE TblEmployee 
 (
 Employeenumber int not null, 
 Employeefirstname varchar(50) not null,
@@ -15,4 +15,5 @@ DateofBirth date not null
 Alter table tblemployee 
 add Department varchar(50)
 
---be sure to push to SC at every save 
+
+use  a 

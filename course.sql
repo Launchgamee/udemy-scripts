@@ -57,14 +57,14 @@ int = -- datatype
 declare @myvar int = 2 
 select @myvar as Variable
 
---section 9 --
+--section 9 --  jump tp section 9 -- creating , populating and selecting part o a table 
 
 -- starts with creating TblEmployee
---create tblemployee
--- insert data 
+--create tblemployee,, table created 
+-- insert data -- provided xlsx 
+--alter table/object to add new field 
 
---alter object to add new field 
 
-Alter table tblemployee 
-add Department varchar(50)
 
+
+select * from tblemployee

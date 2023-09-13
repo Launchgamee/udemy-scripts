@@ -64,11 +64,14 @@ select @myvar as Variable
 -- insert data -- provided xlsx 
 --alter table/object to add new field 
 
-select * from tblemployee
+select * from tblemployee 
+where EmployeeLastName like '%wo%'
 
-select count(*) cnt from  tblemployee
+select count(*)from  tblemployee
 
-select distinct Department from TblEmployee
+
+
+
 
 
 

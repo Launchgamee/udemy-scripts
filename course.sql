@@ -64,7 +64,11 @@ select @myvar as Variable
 -- insert data -- provided xlsx 
 --alter table/object to add new field 
 
-
-
-
 select * from tblemployee
+
+select count(*) cnt from  tblemployee
+
+select distinct Department from TblEmployee
+
+
+

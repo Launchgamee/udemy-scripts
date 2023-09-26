@@ -1,4 +1,4 @@
--- CREATE TblEmployee 
+-- CREATE TblEmployee (Used SSIS fri data insertton)
 
 CREATE TABLE TblEmployee 
 (
@@ -19,6 +19,14 @@ ALTER COLUMN Department VARCHAR(255)
 ALTER TABLE tblEmployee
 ADD LastMOd datetime 
 
-*\
+*/
 
 
+---Create TBLtrasaction (excel sheet data/copy pase to sql)
+
+Create table Tbltransaction 
+(
+Amount smallmoney not null,
+DateOfTransaction smalldatetime,
+EmployeeNumber int  not null
+)

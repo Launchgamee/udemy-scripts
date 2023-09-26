@@ -57,14 +57,34 @@ int = -- datatype
 declare @myvar int = 2 
 select @myvar as Variable
 
---section 9 --  jump tp section 9 -- creating , populating and selecting part o a table 
+--Section 9 --  jump tp section 9 -- creating , populating and selecting part o a table 
 
--- starts with creating TblEmployee
---create tblemployee,, table created 
--- insert data -- provided xlsx 
---alter table/object to add new field 
+-- Starts with creating TblEmployee
+--Create tblemployee,, table created 
+-- Insert data -- provided xlsx 
+--Alter table/object to add new field 
+select  * from TblEmployee 
+where EmployeeLastName like '%w%'
+
+select count(*)from  tblemployee -- 1003
+
+-- first tbl (tblemployee) added, 
+
+
+----------------------------------SECTION 10 -Summarising and ordering data --------------------------------------------------------
+
+select 
+* from TblEmployee
+where year(dateofbirth)= 1976 
 
 
 
 
-select * from tblemployee
+
+
+
+
+
+
+
+

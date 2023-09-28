@@ -73,17 +73,20 @@ select count(*)from  tblemployee -- 1003
 
 ----------------------------------SECTION 10 -Summarising and ordering data --------------------------------------------------------
 
-select 
-* from TblEmployee
+select * from TblEmployee
 where year(dateofbirth)= 1976 
 
+select * from TblEmployee 
+select count(*) from [dbo].[Tbltransaction]
 
 
-
-
-
-
-
+select e.*,
+t.amount,
+t.dateoftransaction
+from 
+TblEmployee e join 
+tbltransaction t 
+on e.Employeenumber = t.employeenumber
 
 
 
